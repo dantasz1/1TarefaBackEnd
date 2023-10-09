@@ -11,7 +11,7 @@ app.listen(3000 , () => {
 //==============CRIAR APIs===============================
 // GET / GET BY ID // 
 
-app.get('/usuarios' (req,res) => {
+app.get('/usuarios' , (req,res) => {
     console.log("APi GET todos")
     res.status(200).send("todos os usuarios")
 })
